@@ -51,12 +51,18 @@ print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 print(input("\nAre you ready to take flight? "))
 print("\nStarting Drone!\n")
 
+def square():
+    for i in range(4):
+        sendmsg('forward 100')
+        sendmsg('ccw 90')
+
 time.sleep(1)
 try:
     sendmsg('command', 0)
     sendmsg('takeoff')
+    sendmsg('up 20')
+    square()
 
-    # Commands go here, read the SDK for commands.
 
     sendmsg('land')
     print('Great Flight!!!')
