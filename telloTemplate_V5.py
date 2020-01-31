@@ -59,10 +59,8 @@ def square():
 time.sleep(1)
 try:
     sendmsg('command', 0)
-    sendmsg('takeoff')
-    sendmsg('flip l')
-    sendmsg('flip r')
-
+    sendmsg('takeoff', 8)
+    sendmsg('curve 60 0 100 100 0 0 50')
 
     sendmsg('land')
     print('Great Flight!!!')
