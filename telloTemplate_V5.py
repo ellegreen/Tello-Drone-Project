@@ -56,11 +56,17 @@ def square():
         sendmsg('forward 100')
         sendmsg('ccw 90')
 
+def ffbf():
+    sendmsg('forward 100')
+    sendmsg('flip f')
+    sendmsg('back 100')
+    sendmsg('flip b')
+
 time.sleep(1)
 try:
     sendmsg('command', 0)
     sendmsg('takeoff', 8)
-    sendmsg('curve 100 -100 0 100 0 0 50')
+    ffbf()
 
     sendmsg('land')
     print('Great Flight!!!')
