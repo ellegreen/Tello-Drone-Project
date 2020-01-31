@@ -62,11 +62,16 @@ def ffbf():
     sendmsg('back 100')
     sendmsg('flip b')
 
+def forwardCcwBack():
+    sendmsg('forward 500', 8)
+    sendmsg('ccw 180')
+    sendmsg('forward 500')
+
 time.sleep(1)
 try:
     sendmsg('command', 0)
     sendmsg('takeoff', 8)
-    ffbf()
+    forwardCcwBack()
 
     sendmsg('land')
     print('Great Flight!!!')
