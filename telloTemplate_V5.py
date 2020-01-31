@@ -60,8 +60,8 @@ time.sleep(1)
 try:
     sendmsg('command', 0)
     sendmsg('takeoff')
-    sendmsg('up 20')
-    square()
+    sendmsg('flip l')
+    sendmsg('flip r')
 
 
     sendmsg('land')
