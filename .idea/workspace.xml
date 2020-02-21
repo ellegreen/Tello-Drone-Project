@@ -18,7 +18,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.telloTemplate_V5">
@@ -125,14 +125,14 @@
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="450" y="157" width="1086" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.948@67.27.1853.948" timestamp="1580131467783" />
-    <state x="666" y="118" width="644" height="763" key="#telloTemplate_V5" timestamp="1580478058821">
+    <state x="666" y="118" width="644" height="763" key="#telloTemplate_V5" timestamp="1581686249665">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="666" y="118" width="644" height="763" key="#telloTemplate_V5/67.27.1853.948@67.27.1853.948" timestamp="1580478058821" />
-    <state x="775" y="257" width="426" height="486" key="FileChooserDialogImpl" timestamp="1580217554402">
+    <state x="666" y="118" width="644" height="763" key="#telloTemplate_V5/67.27.1853.948@67.27.1853.948" timestamp="1581686249665" />
+    <state x="775" y="257" width="426" height="486" key="FileChooserDialogImpl" timestamp="1581943249620">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="775" y="257" width="426" height="486" key="FileChooserDialogImpl/67.27.1853.948@67.27.1853.948" timestamp="1580217554402" />
+    <state x="775" y="257" width="426" height="486" key="FileChooserDialogImpl/67.27.1853.948@67.27.1853.948" timestamp="1581943249620" />
     <state width="1828" height="243" key="GridCell.Tab.0.bottom" timestamp="1580478058841">
       <screen x="67" y="27" width="1853" height="948" />
     </state>

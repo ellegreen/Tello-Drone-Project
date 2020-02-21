@@ -71,7 +71,7 @@ time.sleep(1)
 try:
     sendmsg('command', 0)
     sendmsg('takeoff', 8)
-    forwardCcwBack()
+    square()
 
     sendmsg('land')
     print('Great Flight!!!')
