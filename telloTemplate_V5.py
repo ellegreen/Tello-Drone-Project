@@ -67,15 +67,19 @@ def forwardCcwBack():
     sendmsg('ccw 180')
     sendmsg('forward 500')
 
+def course():
+    sendmsg('curve 60 0 100 100 0 0 50')
+    sendmsg('curve 100 -100 0 100 0 0 50')
+
 time.sleep(1)
 try:
     sendmsg('command', 0)
-    sendmsg('takeoff', 8)
-    square()
+    sendmsg('takeoff', 5)
+    ffbf()
 
     sendmsg('land')
     print('Great Flight!!!')
-except KeyboardInterrupt: # Ctrl+C (Use if drone is going crazy and to exit the application)
+except KeyboardInterrupt:  # Ctrl+C (Use if drone is going crazy and to exit the application)
     sendmsg('emergency')
 breakr = True
 sock.close()
