@@ -75,7 +75,7 @@ time.sleep(1)
 try:
     sendmsg('command', 0)
     sendmsg('takeoff', 5)
-    ffbf()
+    course()
 
     sendmsg('land')
     print('Great Flight!!!')
